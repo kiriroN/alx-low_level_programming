@@ -6,9 +6,12 @@
 /**
  * main - print if number is positive, zero or negative
  *
- * Return: always (Success)
+ * Return: Always (Success)
+ *
  */
+
 int main(void)
+
 {
 	int n;
 	
@@ -17,15 +20,16 @@ int main(void)
 	/* your code goes there */
 	if (n > 0)
 	{
-                printf("%d is pisitive\n", n);
+        printf("%d is pisitive\n", n);
 	}
         else if (n == 0)
 	{
-                printf("%d is zero\n", n);
+        printf("%d is zero\n", n);
 	}
         else
 	{
-                printf("%d is negstive\n", n);
+        printf("%d is negstive\n", n);
 	}
 	return (0);
+
 }
