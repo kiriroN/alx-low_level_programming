@@ -4,9 +4,9 @@
 #include<stdio.h>
 /* betty style doc for function main goes there */
 /**
- * main - main function
+ * main - print if number is positive, zero or negative
  *
- * Return: always 0
+ * Return: always (Success)
  */
 int main(void)
 {
