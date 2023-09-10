@@ -2,12 +2,11 @@
 #include <time.h>
 /* more headers goes there */
 #include <stdio.h>
-
 /* betty style doc for function main goes there */
 
 /**
  * main - print if number is positive, zero or negative
- * Return: Always (Success)
+ * Return: Always 0 (Success)
  *
  */
 
@@ -19,12 +18,12 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
 
-	if (n < o)
-		printf("%d is negative\n", n);
-	else if (n > o)
+	if (n > o)
 		printf("%d is positive\n", n);
-	else
+	else if (n == 0)
 		printf("%d is zero\n", n);
+	else
+		printf("%d is negative\n", n);
 
 	return (0);
 }
