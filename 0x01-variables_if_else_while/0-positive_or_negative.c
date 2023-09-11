@@ -5,9 +5,9 @@
 /* betty style doc for function main goes there */
 
 /**
- * main - print if number is positive, zero or negative
- * Return: Always 0 (Success)
+ * main - entry point of programs
  *
+ * Return: Always 0 (Success)
  */
 
 int main(void)
@@ -18,12 +18,12 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
 
-	if (n > o)
-		printf("%d is positive\n", n);
-	else if (n == 0)
-		printf("%d is zero\n", n);
-	else
+	if (n < 0)
 		printf("%d is negative\n", n);
+	else if (n > 0)
+		printf("%d is positive\n", n);
+	else
+		printf("%d is zero\n", n);
 
 	return (0);
 }
