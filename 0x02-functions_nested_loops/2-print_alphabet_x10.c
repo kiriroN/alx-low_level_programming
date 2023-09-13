@@ -3,6 +3,7 @@
  * print_alphabet_x10 - print alphabet in lowercase x10
  * Return: 0
  */
+
 void print_alphabet_x10(void)
 {
 	int i;
@@ -12,6 +13,6 @@ void print_alphabet_x10(void)
 	{
 		for (j = 'a' ; j <= 'z' ; j++)
 			_putchar(j);
+		_putchar('\n');
 	}
-	_putchar('\n');
 }
