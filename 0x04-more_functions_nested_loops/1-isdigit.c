@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * mul - multiply 2 int
+ * _isdigit - check if numbers are 0 - 9
  * @c: char be checked
  * Return: 0 or 1
  */
