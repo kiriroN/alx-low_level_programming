@@ -49,7 +49,7 @@ void errors(void)
  * main - multipliestwo positive numbers
  * @argc: number of arguments
  * @argv: array of arguments
- * Return: o
+ * Return: 0
  */
 int main(int argc, char *argv[])
 {
